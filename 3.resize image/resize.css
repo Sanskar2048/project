@@ -1,0 +1,51 @@
+*{
+    padding: 10px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --blur:0px;
+    --spacing:0px;
+    --base: #ffc600;
+}
+
+body{
+    background-color:#172d40 ;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.contaner{
+    font-size: xx-large;
+    padding:2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-style: italic;
+    font-weight: bold;
+    color: #fda400;
+}
+
+.contaner label{
+    padding: 10px;
+}
+
+.contaner input{
+    margin: 10px;
+}
+.frame{
+    width:85vw;
+    padding: var(--spacing);
+    background-color: var(--base);
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    filter: blur(var(--blur));
+}

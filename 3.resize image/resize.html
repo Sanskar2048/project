@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="resize.css">
+
+</head>
+
+<body>
+  <h1> Image filter using css variable with js</h1>
+  <div class="contaner">
+    <label for="spacing">Spacing</label>
+    <input type="range" name="spacing" min="0" max="90" value="10" data-sizing="px">
+    <label for="blur">Blur</label>
+    <input type="range" name="blur" min="0" max="50" value="0" data-sizing="px">
+    <label for="color">Base Color</label>
+    <input type="color" name="base" value="#fda400">
+    <div class="frame">
+      <img src="https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg">
+    </div>
+  </div>
+  <script src="resize.js"></script>
+</body>
+
+</html>
