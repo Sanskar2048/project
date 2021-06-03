@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-box{
+    font-size: 1.5em;
+    background-color:white;
+    padding: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 1em;
+}
+
+.list-item{
+    margin-top: 1em;
+    list-style: none;
+    border-bottom-style : solid;
+    border-color: rgba(122, 122, 122, 0.541);
+    border-width :thin;
+    padding: 0.5em;
+}
+
+.item-value{
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+.item-value:hover{
+    color: rgba(0, 0, 0, .5);
+}
+
+.form-box{
+    margin-top: 1em;
+    display: flex;
+}
+
+.input-box{
+    flex-grow: 2;
+    padding: 1px;
+    font-size: 0.8em;
+    margin-right: 10px;
+}
+
+.submit-button{
+    padding: 0.2em;
+}
